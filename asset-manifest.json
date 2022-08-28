@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WeatherSearch/static/css/main.a6003620.css",
+    "main.js": "/WeatherSearch/static/js/main.13677cbe.js",
+    "index.html": "/WeatherSearch/index.html",
+    "main.a6003620.css.map": "/WeatherSearch/static/css/main.a6003620.css.map",
+    "main.13677cbe.js.map": "/WeatherSearch/static/js/main.13677cbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6003620.css",
+    "static/js/main.13677cbe.js"
+  ]
+}
