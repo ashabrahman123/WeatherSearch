@@ -1,0 +1,97 @@
+.main1{
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    background-color: rgb(127, 229, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} 
+.tempmain{
+    display: flex;
+}
+.cityname{
+  padding-left: 60px;
+  font-size: 40px;
+  margin-top: -40px;
+ }
+ .minmaxtemp{
+    font-size: 18px;
+ }
+
+
+.main2{
+    padding-left: 100px;
+    padding-top: 70px;
+
+}
+
+.main3 input{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 60px;
+}
+.tempp{
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+::placeholder{
+    font-size: 18px;
+}
+.cloicon
+{
+    color: white;
+    font-size: 80px;
+    padding-left: 80px;
+}
+
+.sun{
+    color: yellow;
+    font-size: 80px;
+    padding-left: 80px;
+}
+.day{
+    padding-left: 90px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.date{
+    /* padding-left: 50px; */
+    font-size: 30px;
+}
+
+.time{
+    padding-left: 60px;
+    font-size: 30px;
+}
+.datetime2{
+    display: flex;
+    margin-top: -30px;
+}
+
+@media (max-width:998px)
+{
+.main1{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 350px;
+}
+
+
+.main2{
+    padding-left: 40px;
+    padding-top: 70px;
+
+}
+.minmaxtemp{
+    font-size: 20px;
+ }
+ .datetime p{
+    font-size:24px;
+    font-weight: bold;
+}
+}
